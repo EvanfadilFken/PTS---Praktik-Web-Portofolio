@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS - Praktik Web Portofolio</title>
+</head>
+<body>
+    <header>
+        <section id="home">
+            <h1>Selamat Datang di Web Portofolio Saya</h1> <hr>
+            <img src="profil.jpg" alt="Foto profil Saya" width="180">
+            <p>Saya memiliki minat besar di bidang teknologi, khususnya dalam pengembangan website.</p>
+            <a href="#keahlian">Lihat Keahlian Saya</a>
+        </section>
+        <nav aria-label="Nav">
+          <h2>Portofolio Saya</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Halooo!!! Nama Saya Evan Fadil Firmansyah,Calon Web Developer. Saya memiliki minat besar di bidang teknologi, khususnya dalam pengembangan website. Saya adalah pribadi yang disiplin, bertanggung jawab, dan senang mempelajari hal baru untuk mengembangkan kemampuan saya di bidang IT.</p>
+        </section>
+        <section id="keahlian">
+            <h2>Kompetensi Keahlian</h2>
+            <div>
+              <img src="html.jpg" alt="Logo HTML" width="90">
+              <h3>HTML5</h3>
+              <p>HTML adalah bahasa markah yang digunakan untuk membuat dan menyusun struktur halaman website.</p> <br> <br> 
+              <img src="css.jpg" alt="Logo CSS" width="90">
+              <h3>CSS3</h3>
+              <p>CSS adalah bahasa stylesheet yang digunakan untuk mengatur tampilan,warna, tata letak, dan gaya visual website.</p> <br><br>
+              <img src="py.jpg" alt="Logo Python" width="90">
+              <h3>Python</h3>
+              <p>Python adalah bahasa pemrograman tingkat tinggi yang serbaguna dan ramah bagi pemula.</p>
+            </div>
+        </section>
+        <section id="kontak">
+            <h2>Formulir Kontak Klien</h2>
+  <form action="#" method="POST">
+    <table>
+        <tr>
+            <td><label for="nama">Nama Pengirim</label></td>
+            <td>:</td>
+            <td>
+                <input type="text" id="nama" name="nama"
+                placeholder="Masukkan nama lengkap" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>:</td>
+            <td>
+                <input type="email" id="email" name="email"
+                placeholder="contoh@email.com" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top"><label for="pesan">Pesan</label></td>
+            <td valign="top">:</td>
+            <td>
+                <textarea id="pesan" name="pesan" rows="5" cols="30"
+                placeholder="Tulis pesan Anda di sini..." required></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td><button type="submit">Kirim Pesan</button></td>
+        </tr>
+    </table>
+ </form>
+        </section>
+    </main> <hr>
+    <footer>
+        <p>&copy; 2026 Evan Fadil Firmansyah</p>
+        <a href="#home">Kembali ke atas</a>
+    </footer>
+
+</body>
+</html>
